@@ -1,0 +1,131 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/index_style.css" />
+</head>
+
+<body>
+    <header class="vh-100 d-flex flex-wrap align-items-start justify-content-center position-relative">
+        <nav class="navbar navbar-expand-lg fixed-top w-100 navbar-dark bg-opacity">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" class="logo" alt="spice resturant logo" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link">pizza</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">pasta</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link">beef</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">salad</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">tomato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">champ</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <h1 class="w-100 text-white font-weight-bolder text-center">
+            Never Miss a Recipe!
+        </h1>
+
+    </header>
+    <section>
+        <div class="my-modal" id="modal">
+            <div class="modal-header">
+                <div class="title">title</div>
+                <button data-close-button class="closeBtn">&times;</button>
+            </div>
+            <div class="modal-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt exercitationem amet autem enim harum officia, dolor deleniti, odit rem minima quia dolore esse, dignissimos facere reprehenderit consequatur optio maxime impedit!
+            </div>
+        </div>
+    </section>
+
+    <section id="recipesSearch" class="text-center py-5">
+        <div class="container-fluid py-5">
+            <h2>Recipe Categories</h2>
+            <p class="lead">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit,<br /> sed tincidunt ut laoreet dolore magna aliquam erat volutpat lorem
+            </p>
+
+            <div class="row my-5">
+                <div class="col-md-3">
+                    <div class="category">
+                        <h3 class="font-weight-bolder">Meal Type</h3>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="category">
+                        <h3 class="font-weight-bolder">Diet & Health</h3>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="category">
+                        <h3 class="font-weight-bolder">Ingredient</h3>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="category">
+                        <h3 class="font-weight-bolder">Dish Type</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid text-left">
+            <div class="row" id="rowData">
+
+
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">The Recipe Ingerdiants</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                </div>
+                <div class="modal-body" id="modal-body">
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/mine.js"></script>
+
+</body>
+
+</html>
